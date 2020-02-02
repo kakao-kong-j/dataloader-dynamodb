@@ -1,0 +1,29 @@
+{
+  "name": "dataloader-dynamodb",
+  "version": "1.0.0",
+  "description": "Library to create dataloader used by graphql.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+  },
+  "keywords": [
+    "graphql",
+    "dataloader",
+    "typescript"
+  ],
+  "author": "tpdleps@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "dataloader": "^2.0.0"
+  },
+  "devDependencies": {
+    "@shelf/jest-dynamodb": "^1.6.0",
+    "@types/jest": "^25.1.1",
+    "@types/node": "^13.7.0",
+    "aws-sdk": "^2.610.0",
+    "jest": "^25.1.0",
+    "ts-jest": "^25.1.0",
+    "typescript": "^3.7.5"
+  }
+}
