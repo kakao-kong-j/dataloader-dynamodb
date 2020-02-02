@@ -1,0 +1,8 @@
+{
+  "preset": "@shelf/jest-dynamodb",
+  "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(tsx?|js)$",
+  "transform": {
+    "^.+\\.(jsx?|tsx?)$": "ts-jest"
+  },
+  "moduleFileExtensions": ["ts", "tsx", "js"]
+}
